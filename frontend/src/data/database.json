@@ -1,21 +1,6 @@
 {
   "players": [
     {
-      "id": "1",
-      "name": "Player 1",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "2",
-      "name": "Player 2",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "3",
-      "name": "Player 3",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
       "id": "1759027256241",
       "name": "Test Player",
       "createdAt": "2025-09-28T02:40:56.241Z"
@@ -23,92 +8,49 @@
   ],
   "games": [
     {
-      "id": "1",
-      "name": "Game 1",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "2",
-      "name": "Game 2",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "3",
-      "name": "Game 3",
-      "createdAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
       "id": "1759027265286",
       "name": "Bananagrams",
       "createdAt": "2025-09-28T02:41:05.286Z"
     }
   ],
-  "scores": [
-    {
-      "id": "1",
-      "playerId": "1",
-      "gameId": "1",
-      "score": 120,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "2",
-      "playerId": "1",
-      "gameId": "2",
-      "score": 85,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "3",
-      "playerId": "1",
-      "gameId": "3",
-      "score": 210,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "4",
-      "playerId": "2",
-      "gameId": "1",
-      "score": 95,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "5",
-      "playerId": "2",
-      "gameId": "2",
-      "score": 150,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "6",
-      "playerId": "2",
-      "gameId": "3",
-      "score": 180,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "7",
-      "playerId": "3",
-      "gameId": "1",
-      "score": 200,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "8",
-      "playerId": "3",
-      "gameId": "2",
-      "score": 75,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "9",
-      "playerId": "3",
-      "gameId": "3",
-      "score": 95,
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    }
-  ],
+  "scores": [],
   "activities": [
+    {
+      "id": "1759030067331",
+      "type": "game_removed",
+      "message": "Game 3 removed from games",
+      "timestamp": "2025-09-28T03:27:47.331Z"
+    },
+    {
+      "id": "1759030066329",
+      "type": "game_removed",
+      "message": "Game 2 removed from games",
+      "timestamp": "2025-09-28T03:27:46.329Z"
+    },
+    {
+      "id": "1759030065342",
+      "type": "game_removed",
+      "message": "Game 1 removed from games",
+      "timestamp": "2025-09-28T03:27:45.342Z"
+    },
+    {
+      "id": "1759030063834",
+      "type": "player_removed",
+      "message": "Player 3 removed from the leaderboard",
+      "timestamp": "2025-09-28T03:27:43.834Z"
+    },
+    {
+      "id": "1759030061720",
+      "type": "player_removed",
+      "message": "Player 2 removed from the leaderboard",
+      "timestamp": "2025-09-28T03:27:41.720Z"
+    },
+    {
+      "id": "1759030060142",
+      "type": "player_removed",
+      "message": "Player 1 removed from the leaderboard",
+      "timestamp": "2025-09-28T03:27:40.142Z"
+    },
     {
       "id": "1759027265286",
       "type": "game_added",
