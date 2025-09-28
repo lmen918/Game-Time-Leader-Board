@@ -216,7 +216,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-game-bg text-white font-orbitron relative">
+    <div className="min-h-screen text-white font-orbitron relative">
       <VantaBackground />
 
       {/* Header */}
