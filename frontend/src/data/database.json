@@ -6,14 +6,19 @@
       "createdAt": "2024-01-01T00:00:00.000Z"
     },
     {
-      "id": "2", 
+      "id": "2",
       "name": "Player 2",
       "createdAt": "2024-01-01T00:00:00.000Z"
     },
     {
       "id": "3",
-      "name": "Player 3", 
+      "name": "Player 3",
       "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "1759027256241",
+      "name": "Test Player",
+      "createdAt": "2025-09-28T02:40:56.241Z"
     }
   ],
   "games": [
@@ -24,13 +29,18 @@
     },
     {
       "id": "2",
-      "name": "Game 2", 
+      "name": "Game 2",
       "createdAt": "2024-01-01T00:00:00.000Z"
     },
     {
       "id": "3",
       "name": "Game 3",
       "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "1759027265286",
+      "name": "Bananagrams",
+      "createdAt": "2025-09-28T02:41:05.286Z"
     }
   ],
   "scores": [
@@ -42,7 +52,7 @@
       "updatedAt": "2024-01-01T00:00:00.000Z"
     },
     {
-      "id": "2", 
+      "id": "2",
       "playerId": "1",
       "gameId": "2",
       "score": 85,
@@ -50,7 +60,7 @@
     },
     {
       "id": "3",
-      "playerId": "1", 
+      "playerId": "1",
       "gameId": "3",
       "score": 210,
       "updatedAt": "2024-01-01T00:00:00.000Z"
@@ -58,7 +68,7 @@
     {
       "id": "4",
       "playerId": "2",
-      "gameId": "1", 
+      "gameId": "1",
       "score": 95,
       "updatedAt": "2024-01-01T00:00:00.000Z"
     },
@@ -73,7 +83,7 @@
       "id": "6",
       "playerId": "2",
       "gameId": "3",
-      "score": 180, 
+      "score": 180,
       "updatedAt": "2024-01-01T00:00:00.000Z"
     },
     {
@@ -84,7 +94,7 @@
       "updatedAt": "2024-01-01T00:00:00.000Z"
     },
     {
-      "id": "8", 
+      "id": "8",
       "playerId": "3",
       "gameId": "2",
       "score": 75,
@@ -100,6 +110,20 @@
   ],
   "activities": [
     {
+      "id": "1759027265286",
+      "type": "game_added",
+      "message": "Bananagrams added to games",
+      "timestamp": "2025-09-28T02:41:05.286Z",
+      "gameId": "1759027265286"
+    },
+    {
+      "id": "1759027256241",
+      "type": "player_added",
+      "message": "Test Player added to the leaderboard",
+      "timestamp": "2025-09-28T02:40:56.241Z",
+      "playerId": "1759027256241"
+    },
+    {
       "id": "1",
       "type": "score_updated",
       "message": "Player 2 scored 150 in Game 2",
@@ -109,7 +133,7 @@
     },
     {
       "id": "2",
-      "type": "score_updated", 
+      "type": "score_updated",
       "message": "Player 1 scored 210 in Game 3",
       "timestamp": "2024-01-01T20:00:00.000Z",
       "playerId": "1",
