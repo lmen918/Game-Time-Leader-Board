@@ -1,0 +1,126 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Player 1",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2", 
+      "name": "Player 2",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Player 3", 
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "name": "Game 1",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Game 2", 
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Game 3",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "scores": [
+    {
+      "id": "1",
+      "playerId": "1",
+      "gameId": "1",
+      "score": 120,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2", 
+      "playerId": "1",
+      "gameId": "2",
+      "score": 85,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "playerId": "1", 
+      "gameId": "3",
+      "score": 210,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "playerId": "2",
+      "gameId": "1", 
+      "score": 95,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "playerId": "2",
+      "gameId": "2",
+      "score": 150,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "playerId": "2",
+      "gameId": "3",
+      "score": 180, 
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "playerId": "3",
+      "gameId": "1",
+      "score": 200,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "8", 
+      "playerId": "3",
+      "gameId": "2",
+      "score": 75,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "playerId": "3",
+      "gameId": "3",
+      "score": 95,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "type": "score_updated",
+      "message": "Player 2 scored 150 in Game 2",
+      "timestamp": "2024-01-01T22:00:00.000Z",
+      "playerId": "2",
+      "gameId": "2"
+    },
+    {
+      "id": "2",
+      "type": "score_updated", 
+      "message": "Player 1 scored 210 in Game 3",
+      "timestamp": "2024-01-01T20:00:00.000Z",
+      "playerId": "1",
+      "gameId": "3"
+    },
+    {
+      "id": "3",
+      "type": "player_added",
+      "message": "Player 3 added to the leaderboard",
+      "timestamp": "2023-12-31T00:00:00.000Z",
+      "playerId": "3"
+    }
+  ]
+}
